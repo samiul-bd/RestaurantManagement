@@ -1,0 +1,21 @@
+# =========================
+# Client (React/Vite) er jonno
+# =========================
+Client/node_modules/
+Client/dist/
+Client/.env
+
+# =========================
+# Server (.NET Web API) er jonno
+# =========================
+Server/bin/
+Server/obj/
+Server/.vs/
+Server/appsettings.Development.json
+*.user
+
+# =========================
+# OS / Sadharon temporary file
+# =========================
+.DS_Store
+Thumbs.db
