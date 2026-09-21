@@ -8,10 +8,10 @@ Client/.env
 # =========================
 # Server (.NET Web API) er jonno
 # =========================
-Server/bin/
-Server/obj/
-Server/.vs/
-Server/appsettings.Development.json
+**/bin/
+**/obj/
+**/.vs/
+**/appsettings.Development.json
 *.user
 
 # =========================
