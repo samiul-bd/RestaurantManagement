@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace RestaurantManagement.Models
 {
-    public class Roles
+    public class Roles 
     {
         [Key]
         public int RoleId { get; set; }

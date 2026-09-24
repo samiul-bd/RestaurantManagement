@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace RestaurantManagement.Models
 {
-    public class Category
+    public class Category : TenantBase
     {
         [Key]
         public int Id { get; set; }

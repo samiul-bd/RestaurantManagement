@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace RestaurantManagement.Models
 {
-    public class OrderItem
+    public class OrderItem : TenantBase
     {
         [Key]
         public int Id { get; set; }

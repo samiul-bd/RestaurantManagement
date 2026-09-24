@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace RestaurantManagement.Models
 {
-    public class Table
+    public class Table : TenantBase
     {
         [Key]
         public int Id { get; set; }
